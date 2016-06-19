@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>javascript</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="application/css/app.css">
+</head>
+<body>
+<div class="container">
+	<div class="panel panel-default" id="panel">
+		<form class="form-group">
+			<p id="displayWinner" class="label label-success toggleWinner ">The Winner is <span id="winner">Player 1</span></p>
+			<h1>Player1: <span id="p1score">0</span>  Player2: <span id="p2score">0<span></h1>
+			<h3>Playing to: <span id="play">0</span></h3>
+			<input class="form-control" id="upTo" type="number" value="0" min="0">
+		</form>
+			<button class="btn btn-primary" id="player-1">Player 1</button>
+			<button class="btn btn-danger" id="player-2">Player 2</button>
+			<button class="btn btn-regular"id="reset">Reset</button>
+	</div>
+</div>
+
+<script src="application/js/app.js"></script>
+</body>
+</html>
